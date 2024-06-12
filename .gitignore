@@ -1,0 +1,3 @@
+#Ignore files bigger than 100MB
+ckpt-2.data-00000-of-00001
+*.zip
