@@ -1,0 +1,18 @@
+#para correr en cpu, agregar al final: --gpu_ids -1 
+
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+Ejemplo del link de arriba
+$ python test.py --dataroot datasets/horse2zebra/testA --name horse2zebra_pretrained --model test --no_dropout --gpu_ids -1
+
+En nuestro caso podemos probar con:
+- style_cezanne_pretrained
+- style_monet_pretrained
+- style_ukiyoe_pretrained
+- style_vangogh_pretrained
+
+En datasets/dibujitos podriamos poner los resultados del primer CycleGAN
+
+$ python test.py --dataroot datasets/dibujitos --name style_vangogh_pretrained --model test --no_dropout --gpu_ids -1
+
+Usuario@DESKTOP-354KHVA MINGW64 ~/Documents/GitHub/Dibujitos-DL/pytorch-CycleGAN-and-pix2pix-master (main)
+$ python test.py --dataroot datasets/dibujitos --name style_vangogh_pretrained --model test --no_dropout --gpu_ids -1
