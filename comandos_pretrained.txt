@@ -16,3 +16,7 @@ $ python test.py --dataroot datasets/dibujitos --name style_vangogh_pretrained -
 
 Usuario@DESKTOP-354KHVA MINGW64 ~/Documents/GitHub/Dibujitos-DL/pytorch-CycleGAN-and-pix2pix-master (main)
 $ python test.py --dataroot datasets/dibujitos --name style_vangogh_pretrained --model test --no_dropout --gpu_ids -1
+
+python test.py --dataroot datasets/dibujitos --name style_cezanne_pretrained --model test --no_dropout --gpu_ids -1
+python test.py --dataroot datasets/dibujitos --name style_monet_pretrained --model test --no_dropout --gpu_ids -1
+python test.py --dataroot datasets/dibujitos --name style_ukiyoe_pretrained --model test --no_dropout --gpu_ids -1
